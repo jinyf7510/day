@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		div{width:90%; background:#f00; height:800px; margin:0 auto;}
+
+		@media screen and (max-width:1024px) and (min-width:768px){
+			div{background: #0f0;}
+		}
+
+		/*简写*/
+		@media( max-width:768px) and (min-width:400px){
+			div{background:#00f;}
+		}
+		@media( max-width:400px){
+			div{background:#ccc;}
+		}
+	</style>
+</head>
+<body>
+	<div></div>
+</body>
+</html>
+
